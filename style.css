@@ -1,0 +1,117 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {  
+    font-size: 50px;
+    font-weight: 800px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #025464;
+    
+}
+
+.menu {
+    float: right ;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #025464;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float:left    
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-hijau {
+    background: #1B9C85;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hijau:hover {
+    background: #B70404;
+    text-decoration: none;
+}
+
+.flow {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deskripsi {
+    font-size: 30px;
+    font-family: 'comic sans ms';
+}
+
+a.tbl-biru {
+    background: #19A7CE;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #E76161;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
